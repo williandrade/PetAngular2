@@ -1,4 +1,78 @@
-<h1>
-  {{title}}
-</h1>
+<div *ngIf="state.header === 1" class="header-1">
+	<div class="top-access uk-container uk-container-small">
+		<ul>
+			<li>
+				<a>Rações</a>
+			</li>
+			<li>
+				<a>Banho e Tosa</a>
+			</li>
+			<li>
+				<a>Medicamentos</a>
+			</li>
+			<li>
+				<a>Veterinário</a>
+			</li>
+		</ul>
+	</div>
+
+	<div class="uk-position-relative top-relative">
+		<div id="myBlock" class="uk-cover-container back-image" uk-height-viewport>
+			<div class="back-image_black"></div> 
+		</div>
+		<div class="uk-position-top">
+			<div class="uk-container uk-container-large">
+				<nav class="uk-navbar-container uk-navbar-transparent" uk-navbar>
+					<div class="uk-navbar-left">
+						<ul class="uk-navbar-nav">
+							<li>
+								<a class="uk-logo" href="index.html">
+									<img src="assets/images/logo_2.png" alt="">
+								</a>
+							</li>
+						</ul>
+					</div>
+					<div class="uk-navbar-right">
+						<ul class="uk-navbar-nav">
+							<li>
+								<a href="#">CATEGORIAS</a>
+								<div class="uk-navbar-dropdown">
+									<ul class="uk-nav uk-navbar-dropdown-nav">
+										<li><a href="#">Rações</a></li>
+										<li><a href="#">Banho e Tosa</a></li>
+										<li><a href="#">Medicamentos</a></li>
+										<li><a href="#">Veterinários</a></li>
+									</ul>
+								</div>
+							</li>
+							<li><a href="#" uk-toggle="target: #login-modal">ENTRAR</a></li>
+						</ul>
+						<div class="uk-navbar-item">
+							<a href="signIn.html" class="uk-button uk-button-default">CADASTRAR</a>
+						</div>
+						<div class="uk-navbar-item">
+							<a href="signIn.html?click=companyBtn" class="uk-button uk-button-default">Torne-se um profissional 101 Serviços</a>
+						</div>
+					</div>
+				</nav>
+				<form id="search-box" class="uk-container uk-container-small">
+					<div class="uk-text-center uk-text-lead" style="color: white;font-weight: 100;margin-top: 30px;">
+						Encontre profissionais, produtos ou serviços sem complicação para o seu PET
+					</div>
+					<div class="uk-grid-collapse uk-child-width-expand@s uk-text-center search-box" uk-grid>
+						<div class="uk-width-3-4">
+							<input class="uk-input uk-form-large search" name="search" type="text" placeholder="O que você está procurando?">
+						</div>
+						<div class="uk-width-1-4">
+							<button type="submit" class="uk-button uk-button-primary uk-button-large uk-width-1-1">Pesquisar</button>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+</div>
+<div *ngIf="state.header === 2">
+	<h1>Header 2</h1>
+</div>
 <router-outlet></router-outlet>

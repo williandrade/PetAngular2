@@ -1,1 +1,6 @@
-/* You can add global styles to this file, and also import other style files */
+.uk-logo img{
+	max-height: 65px;
+}
+body, .uk-section-default{
+	background-color: #F4F3F1;
+}

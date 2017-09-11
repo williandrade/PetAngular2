@@ -1,0 +1,75 @@
+.header-1 .uk-logo img{
+	max-height: 65px;
+}
+.header-1 .uk-navbar-transparent ul li a{
+	color: white;
+}
+.header-1 .uk-navbar-transparent ul li a:focus, .uk-navbar-transparent ul li:hover a{
+	color: #999;
+}
+.header-1 .uk-navbar-transparent .uk-navbar-dropdown-nav ul li a{
+	color: #999;
+}
+.header-1 .uk-navbar-transparent .uk-navbar-right .uk-button{
+	color: white;
+}
+.header-1 .top-relative{
+	max-height: 500px;
+	overflow: hidden;
+}
+.header-1 .back-image .back-image_black{
+	background-color: rgba(0, 0, 0, 0.35);
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+.header-1 .search-box{
+	margin-top: 100px;
+	font-weight: 100;
+}
+input.search{
+	background-color: rgba(255, 255, 255, 0.54);
+	border: none;
+	padding: 0px 30px;
+	color: black;
+}
+input.search::-webkit-input-placeholder {
+	color: white !important;
+}
+ 
+input.search:-moz-placeholder { /* Firefox 18- */
+	color: white !important;  
+}
+ 
+input.search::-moz-placeholder {  /* Firefox 19+ */
+	color: white !important;  
+}
+ 
+input.search:-ms-input-placeholder {  
+	color: white !important;  
+}
+.header-1 .top-access>ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #f4f3f1;
+}
+.header-1 .top-access ul li {
+	float: left;
+}
+.header-1 .top-access ul li a {
+	display: block;
+	color: #333333;
+	text-align: center;
+	padding: 10px;
+	text-decoration: none;
+	font-weight: 100;
+}
+
+.header-1 .top-access ul li a:hover {
+	background-color: rgba(0, 0, 0, 0.07);
+}
+.header-1 .back-video {
+	z-index: 0 !important;
+}

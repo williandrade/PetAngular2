@@ -1,0 +1,18 @@
+.numbers{
+	top: -50px;
+	position: relative;
+}
+.numbers .uk-card{
+    min-height: 220px !important;
+}
+.box-blue {
+    background-color: #1e87f0;
+}
+.main-title{
+	color: white !important;
+    font-size: 2.5rem;
+}
+.main-text{
+	color: white !important;
+    font-size: 16pt;
+}
